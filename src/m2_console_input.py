@@ -3,8 +3,8 @@ This module demonstrates lets you practice INPUT from the CONSOLE.
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
          Mark Hays, Amanda Stouder, Aaron Wilkin, their colleagues,
-         and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         and Josiah Hasegawa.
+"""  # DO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
 def main():
@@ -31,10 +31,13 @@ def double_a_float():
          -6.28
     """
     # -------------------------------------------------------------------------
-    # TODO: 2. Implement and test this function.
+    # DO: 2. Implement and test this function.
     #   The testing code is already written for you (above).
     # -------------------------------------------------------------------------
+    print('input a number you wish to double')
 
+    number = float(input('what is the number? '))
+    print(2*number)
 
 def print_an_integer_many_times():
     """
@@ -62,9 +65,13 @@ def print_an_integer_many_times():
          10
     """
     # -------------------------------------------------------------------------
-    # TODO: 3. Implement and test this function.
+    # DO: 3. Implement and test this function.
     #   The testing code is already written for you (above).
     # -------------------------------------------------------------------------
+
+    number = int(input('what is the number? '))
+    for k in range(number):
+        print(2 * number)
 
 
 def print_an_integer_many_times_on_one_row():
@@ -81,13 +88,17 @@ def print_an_integer_many_times_on_one_row():
          1010101010
     """
     # -------------------------------------------------------------------------
-    # TODO: 4. Implement and test this function.
+    # DO: 4. Implement and test this function.
     #   The testing code is already written for you (above).
     #
     # HINT: One way to print on a SINGLE line is to build up a string
     #       and then print that (single) string.
     # -------------------------------------------------------------------------
 
+    whale = int(input('what number?' ))
+    for k in range(whale):
+         print(2*whale, end='')
+    print()
 
 def input_it_all():
     """
@@ -121,10 +132,20 @@ def input_it_all():
          Peace & Love.
     """
     # -------------------------------------------------------------------------
-    # TODO: 5. Implement and test this function.
+    # DO: 5. Implement and test this function.
     #   The testing code is already written for you (above).
     # -------------------------------------------------------------------------
+    import math
+    murp = float(input('pick a floating point number. '))
+    derp = int(input('pick an integer. '))
+    hurp = str(input('pick a string'))
+    for j in range(derp):
+        whale = math.sqrt(murp)
+        print(whale)
 
+
+    for k in range(derp):
+        print(hurp)
 
 # -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
