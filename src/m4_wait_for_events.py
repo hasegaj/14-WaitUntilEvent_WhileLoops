@@ -356,7 +356,7 @@ def prime_gap(m):
     # -------------------------------------------------------------------------
     g = 2
     while next_prime(g)-g < m:
-        
+
         g = next_prime(g)
     return g
 
